@@ -29,14 +29,14 @@ anything = {};
 Який тип ви надаєте змінній anything в TypeScript, щоб зберегти її гнучкість?
 
 ### Завдання 3
-У TypeScript тип unknown дозволяє нам зберігати будь-які значення, але ми можемо привласнити unknown змінну безпосередньо інший змінної, якщо ми впевнені у її типі. У вас є наступний код:
+_У TypeScript тип unknown дозволяє нам зберігати будь-які значення, але ми можемо привласнити unknown змінну безпосередньо інший змінної, якщо ми впевнені у її типі. У вас є наступний код:
 ```ts
 let some:unknown;
 some = 'Text';
 let str: string;
 str = some;
 ```
-Що потрібно виправити в цьому коді, щоб він став правильним та безпечним?
+Що потрібно виправити в цьому коді, щоб він став правильним та безпечним?_
 
 ### Завдання 4
 У вас є наступний JavaScript масив:
@@ -50,17 +50,20 @@ let person = ['Max', 21];
 
 ### Завдання 6
 У вас є такі функції JavaScript:
+
 ```ts
+import number = CSS.number;
+
 function showMessage(message) {
-  console.log(message);
+    console.log(message);
 }
 
 function calc(num1, num2) {
-  return num1 + num2;
+    return num1 + num2;
 }
 
 function customError() {
-  throw new Error('Error');
+    throw new Error('Error');
 }
 ```
 Як ви вкажете типи для аргументів і значень цих функцій, що повертаються?
